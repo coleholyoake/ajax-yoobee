@@ -21,7 +21,7 @@ $(document).ready(function(){
 				//clear old results
 				$('#notes').html('');
 
-				for(var i = dataFromServer.length; i > -1 ; i--) {
+				for(var i = 0; i < dataFromServer.length; i++) {
 
 					$('#notes').append('<ul>');
 					$('#notes').append('<li>'+dataFromServer[i]['note']+'</li>');
