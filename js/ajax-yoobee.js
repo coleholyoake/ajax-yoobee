@@ -24,8 +24,8 @@ $(document).ready(function(){
 				for(var i = 0; i < dataFromServer.length; i++) {
 
 					$('#notes').append('<ul>');
-					$('#notes').append('<li>'+dataFromServer[i][created]+'</li>');
-					$('#notes').append('<li>'+dataFromServer[i][note]+'</li>');
+					$('#notes').append('<li>'+dataFromServer[i]['created']+'</li>');
+					$('#notes').append('<li>'+dataFromServer[i]['note']+'</li>');
 					$('#notes').append('</ul>');
 				};
 			},
