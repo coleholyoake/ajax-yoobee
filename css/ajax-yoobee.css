@@ -1,0 +1,48 @@
+body {
+	font-family: Helvetica;
+	background-color: #000;
+}
+h1 {
+	margin-top: 0px;
+}
+form {
+	width: 300px;
+	margin: 100px auto 0 auto;
+	background-color: #fff;
+	padding: 5em 5em 0 5em;
+}
+
+#results {
+	width: 300px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 2.5em 5em 5em 5em;
+}
+
+input {
+	padding: .3em;
+	margin-top: .5em;
+	width: 100%;
+	box-sizing: border-box;
+}
+span {
+	color: #d46f43;
+	font-size: 12px;
+}
+label {
+	text-align: right;
+}
+.left {
+	width: 200px;
+}
+input[type=submit] {
+	border-radius: 0px;
+	border: none;
+	background-color: #000;
+	color: #fff;
+	padding: 1em;
+}
+hr {
+	border: 1px solid #000;
+
+}
