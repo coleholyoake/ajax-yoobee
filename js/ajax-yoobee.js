@@ -17,6 +17,17 @@ $(document).ready(function(){
 			data: { note: $('#note').val() },
 			success: function( dataFromServer ){ 
 				console.log(dataFromServer);
+
+				//clear old results
+				$('#notes').html('');
+
+				for(var i = 0; i < dataFromServer.length; i++) {
+
+					$('#notess').append('<ul>');
+					$('#notess').append('<li>'+dataFromServer[i][1]+'</li>');
+					$('#notess').append('<li>'+dataFromServer[i][2]+'</li>');
+					$('#notess').append('</ul>');
+				};
 			},
 			error: function() {
 				alert('Cannot connect');
