@@ -32,6 +32,9 @@ span {
 label {
 	text-align: right;
 }
+textarea{
+	width: 100%;
+}
 .left {
 	width: 200px;
 }
