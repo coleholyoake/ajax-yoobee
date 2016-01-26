@@ -23,10 +23,10 @@ $(document).ready(function(){
 
 				for(var i = 0; i < dataFromServer.length; i++) {
 
-					$('#notess').append('<ul>');
-					$('#notess').append('<li>'+dataFromServer[i][1]+'</li>');
-					$('#notess').append('<li>'+dataFromServer[i][2]+'</li>');
-					$('#notess').append('</ul>');
+					$('#notes').append('<ul>');
+					$('#notes').append('<li>'+dataFromServer[i][created]+'</li>');
+					$('#notes').append('<li>'+dataFromServer[i][note]+'</li>');
+					$('#notes').append('</ul>');
 				};
 			},
 			error: function() {
